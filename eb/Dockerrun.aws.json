@@ -1,0 +1,13 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "rushi216/blaze-todo",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "80",
+      "HostPort": "80"
+    }
+  ]
+}
